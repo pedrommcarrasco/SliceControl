@@ -1,0 +1,16 @@
+PODS:
+  - Fluky (1.0.0)
+
+DEPENDENCIES:
+  - Fluky (from `..`)
+
+EXTERNAL SOURCES:
+  Fluky:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  Fluky: 42866ba0c927818044aa41a8ae297b98c7729546
+
+PODFILE CHECKSUM: 2d50bf507104a05b78271e7d8aa16838f4b19028
+
+COCOAPODS: 1.6.0.beta.1
