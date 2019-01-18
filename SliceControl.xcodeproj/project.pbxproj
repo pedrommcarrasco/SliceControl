@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		202E803321F10EEE0086D4A3 /* SliceControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 202E803121F10EEE0086D4A3 /* SliceControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202E803A21F1102A0086D4A3 /* SliceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E803921F1102A0086D4A3 /* SliceControl.swift */; };
+		202E803C21F1104B0086D4A3 /* SliceControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E803B21F1104B0086D4A3 /* SliceControlDelegate.swift */; };
+		202E804021F110E50086D4A3 /* NSObject+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E803F21F110E50086D4A3 /* NSObject+Create.swift */; };
+		202E804221F114EC0086D4A3 /* UILabel+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E804121F114EC0086D4A3 /* UILabel+Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		202E802E21F10EEE0086D4A3 /* SliceControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SliceControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		202E803121F10EEE0086D4A3 /* SliceControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliceControl.h; sourceTree = "<group>"; };
 		202E803221F10EEE0086D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202E803921F1102A0086D4A3 /* SliceControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceControl.swift; sourceTree = "<group>"; };
+		202E803B21F1104B0086D4A3 /* SliceControlDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceControlDelegate.swift; sourceTree = "<group>"; };
+		202E803F21F110E50086D4A3 /* NSObject+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Create.swift"; sourceTree = "<group>"; };
+		202E804121F114EC0086D4A3 /* UILabel+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +52,29 @@
 		202E803021F10EEE0086D4A3 /* SliceControl */ = {
 			isa = PBXGroup;
 			children = (
-				202E803121F10EEE0086D4A3 /* SliceControl.h */,
+				202E803D21F110C60086D4A3 /* Core */,
+				202E803E21F110D30086D4A3 /* Extensions */,
 				202E803221F10EEE0086D4A3 /* Info.plist */,
 			);
 			path = SliceControl;
+			sourceTree = "<group>";
+		};
+		202E803D21F110C60086D4A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				202E803921F1102A0086D4A3 /* SliceControl.swift */,
+				202E803B21F1104B0086D4A3 /* SliceControlDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		202E803E21F110D30086D4A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				202E803F21F110E50086D4A3 /* NSObject+Create.swift */,
+				202E804121F114EC0086D4A3 /* UILabel+Init.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +84,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				202E803321F10EEE0086D4A3 /* SliceControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +119,7 @@
 				TargetAttributes = {
 					202E802D21F10EEE0086D4A3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -130,6 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202E803A21F1102A0086D4A3 /* SliceControl.swift in Sources */,
+				202E803C21F1104B0086D4A3 /* SliceControlDelegate.swift in Sources */,
+				202E804221F114EC0086D4A3 /* UILabel+Init.swift in Sources */,
+				202E804021F110E50086D4A3 /* NSObject+Create.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +290,7 @@
 		202E803721F10EEE0086D4A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pedrommcarrasco.SliceControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +317,7 @@
 		202E803821F10EEE0086D4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
