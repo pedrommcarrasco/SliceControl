@@ -1,16 +1,16 @@
 PODS:
-  - Fluky (1.0.0)
+  - SliceControl (1.0.0)
 
 DEPENDENCIES:
-  - Fluky (from `..`)
+  - SliceControl (from `..`)
 
 EXTERNAL SOURCES:
-  Fluky:
+  SliceControl:
     :path: ".."
 
 SPEC CHECKSUMS:
-  Fluky: 42866ba0c927818044aa41a8ae297b98c7729546
+  SliceControl: e3baccce101a53b21e0b4e835fdf1485ebd2384b
 
-PODFILE CHECKSUM: 2d50bf507104a05b78271e7d8aa16838f4b19028
+PODFILE CHECKSUM: 472c6bdd43948203743cec6a19ad73dd429ea8e0
 
 COCOAPODS: 1.6.0.beta.1

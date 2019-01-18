@@ -7,100 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		245AE20EB290C60E4C665C8558B02E24 /* FlukyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581306AFE89239BB7383680D2442E55A /* FlukyView.swift */; };
-		24C1A3B75D4267AAB9D6FE56E6216020 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25711AFC6E42778C9A48EA4343ECEEC /* Anchor.swift */; };
-		252422110DA79515653CE698EA033453 /* FlukyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1BC7D43B47EE401D5A32E77D34CC90 /* FlukyProtocol.swift */; };
-		3C4EEBFBEFAA02E9D4261744E4663A1A /* Fluky-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04248E40C3A6FB80BA6C8E0E7366E82B /* Fluky-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C86EBE2D41CB54CE9D293E64F59D670 /* Fluky-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D28C1CCB5A7236EFD9191D60192D77 /* Fluky-dummy.m */; };
-		5D30880AE368F5584C6ADE7B5EB1433A /* Fluky.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1F3BCE5BAAE20A4B867D0C16914FB9 /* Fluky.swift */; };
-		67A6050FB8F875213EEDB5955CC7ED1A /* Damping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E576F3760A5D7FACB2815DAB3D0FC /* Damping.swift */; };
-		6BB8D282279143E2A9A635FCE4DA17C9 /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F487EF66FE64DA53FDFE1CBD699DB /* UIView+Add.swift */; };
-		721F18F5DED2CE5BFACCE258BAD28596 /* FlukyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277A5CF7AB011821344A4ADF316B886E /* FlukyType.swift */; };
-		7D8E883A1B9B093AD520D97B78D999C3 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F633DEA56389DC4ED732ABBD8D8B20 /* Pods-Example-dummy.m */; };
-		7DDF7AFE221DAA04F18876A8AC4E2AE2 /* Fluky.h in Headers */ = {isa = PBXBuildFile; fileRef = D50F6BE52382B60AED3D1941F51D6D56 /* Fluky.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E3320308DE1BFCF7E8520F23CF01514 /* UIStackView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E7FE57116E5D56CD9DAE255E38396 /* UIStackView+Add.swift */; };
-		9146DD686515CA6AF576FA4EFF22BCED /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F20C9037A5F1A7004BCB5EE6D1F274 /* Duration.swift */; };
-		941C98AC663405C5605646C3C2AD9202 /* FlukyProtocol+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E70AB4483499F02163200406D07720 /* FlukyProtocol+Default.swift */; };
-		9860B67D2F3382336CDBF39EFACE1F0D /* Sequence+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6921B8B9DCCF21C4EF5E22ED3E68D8 /* Sequence+Transform.swift */; };
-		9FCF9E8F25DB71F88D648FF1D8DDD023 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EC8D3623FD1A7FB9B69EF208D90ECD /* Spring.swift */; };
-		AB431E83D89B158415E211BB4EA30BE1 /* FlukyLinearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C57BA59006594EC51586BBC7475464 /* FlukyLinearView.swift */; };
-		B1B0411698768FF46BA17DBDF4EA6ED9 /* FlukyBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB6C5876F6A919F11624C26AF7BA42 /* FlukyBoxView.swift */; };
-		B2240B69739515B877572B27E3BFFFDD /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D42D159A47DC837C70E4D53AB3E9015F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B2A2231C75508A88D2D8777E7F7A263F /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE26561A0A037919FD70584F3ED1670 /* Spacing.swift */; };
-		B401EC5A8D5A4D13A2C5922758A6AF0B /* UIStackView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F4A067CEEFAA020E332371DE4E681F /* UIStackView+Create.swift */; };
-		B529C2E6128F58E8D6144486B4B68AAC /* FlukyProtocol+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A7732E61D8158B122834997568C124 /* FlukyProtocol+Animate.swift */; };
-		B8609C5852A3A04D67BA8171C4EB1529 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447B8C2931AC8E3E5AADCEDD3DCB195 /* Calculator.swift */; };
-		BC3D3D53AE67FF4716E2C4BF1B9A0675 /* FlukyImageView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBABAEE469CD52889832ACDA6A9BE9 /* FlukyImageView+Create.swift */; };
-		C0840D60BEDE6EAE191FE326AEC935FD /* Array+Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EECE816412B70461A491D61F917FD /* Array+Chunk.swift */; };
-		D2416BDAE2828E67DEC6AFD6235D3114 /* FlukySingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BB55AE6811A79C7CCCC727F8824557 /* FlukySingleView.swift */; };
-		DEFC4686AFC355E78F8A2C347ADB2E2A /* NSObject+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ED3CE863DB0371C9D0E2AA396742C /* NSObject+Create.swift */; };
-		F88E6A6BAA6304A286DC5B8B1E2D0266 /* FlukyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD80CD9373B8BE3882259CA676E6E488 /* FlukyImageView.swift */; };
+		0535D6CD45836B0573F088483B09F4B0 /* SliceControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56F7C51C5BB7BD382E7B17B35CDB37C /* SliceControl-dummy.m */; };
+		06D1F76D5AAE74123353C49105064601 /* UILabel+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBF7FD54CBB399B7140E644FCC9B25 /* UILabel+Init.swift */; };
+		40DC687349E7BB6C7E923F83C15B844B /* SliceControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2F8C3FEE725185CC04926E0E83B208 /* SliceControl-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		674535380022B02CDDDA83F9C13D5499 /* NSObject+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FB75D408213093E048430BFDCDCCCF /* NSObject+Create.swift */; };
+		8CF8BF0A917959F5616AB773B031576B /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F633DEA56389DC4ED732ABBD8D8B20 /* Pods-Example-dummy.m */; };
+		91C64F7FB2106F43BA1BD62E1BC81392 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D42D159A47DC837C70E4D53AB3E9015F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5980C209E0927FEA06A218016AD065E /* SliceControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763538C4EE7A18BFCD7B02A04AD6FA79 /* SliceControlDelegate.swift */; };
+		FAB2287A3D5FEC56E4ECB59942BA04BD /* SliceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A9E3070BD33B554C5D562C54094422 /* SliceControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E73C931E69747ACB250398212B33F6FF /* PBXContainerItemProxy */ = {
+		CCF0F80ED0C96C6C7DF827AC7785C32D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9645D226202DB875F4E129B513B23DD;
-			remoteInfo = Fluky;
+			remoteGlobalIDString = 481AB4A8EACFE9F04332000886CFA3E6;
+			remoteInfo = SliceControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04239285FD8E362D816F1B1D09001D65 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		04248E40C3A6FB80BA6C8E0E7366E82B /* Fluky-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fluky-umbrella.h"; sourceTree = "<group>"; };
-		095ED3CE863DB0371C9D0E2AA396742C /* NSObject+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Create.swift"; sourceTree = "<group>"; };
-		09F4A067CEEFAA020E332371DE4E681F /* UIStackView+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+Create.swift"; sourceTree = "<group>"; };
-		1A16F27F1644EC00EFC28978691FD43B /* libFluky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFluky.a; path = libFluky.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5B3C6E8CBFE54D91C75405759A8134 /* Fluky-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fluky-prefix.pch"; sourceTree = "<group>"; };
-		23E70AB4483499F02163200406D07720 /* FlukyProtocol+Default.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FlukyProtocol+Default.swift"; sourceTree = "<group>"; };
-		277A5CF7AB011821344A4ADF316B886E /* FlukyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukyType.swift; sourceTree = "<group>"; };
-		2B6921B8B9DCCF21C4EF5E22ED3E68D8 /* Sequence+Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Sequence+Transform.swift"; sourceTree = "<group>"; };
-		2E8EC39680E13B51BA98DEFE401A39A3 /* Fluky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fluky.xcconfig; sourceTree = "<group>"; };
-		34406554533887B21CB2E81C64591C6C /* Fluky.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Fluky.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3447B8C2931AC8E3E5AADCEDD3DCB195 /* Calculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		1C3C273FF37D3E2D25421C071B4742A3 /* SliceControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SliceControl-prefix.pch"; sourceTree = "<group>"; };
+		35FB75D408213093E048430BFDCDCCCF /* NSObject+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSObject+Create.swift"; sourceTree = "<group>"; };
 		3934CC4ED3E5E56B4560DA4444C63F20 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		398E7FE57116E5D56CD9DAE255E38396 /* UIStackView+Add.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+Add.swift"; sourceTree = "<group>"; };
-		46A7E7C9112E1617130644A6FF52C693 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4B3E576F3760A5D7FACB2815DAB3D0FC /* Damping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Damping.swift; sourceTree = "<group>"; };
-		581306AFE89239BB7383680D2442E55A /* FlukyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukyView.swift; sourceTree = "<group>"; };
-		5B9F487EF66FE64DA53FDFE1CBD699DB /* UIView+Add.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Add.swift"; sourceTree = "<group>"; };
-		79DED4CC844EF01462EF409EF357B7AC /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEB6C5876F6A919F11624C26AF7BA42 /* FlukyBoxView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukyBoxView.swift; sourceTree = "<group>"; };
-		805EECE816412B70461A491D61F917FD /* Array+Chunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Chunk.swift"; sourceTree = "<group>"; };
+		4C84C39627A64A79D03C2A67B627F19C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5E5826BA935C090BD69299C2CE915BC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		763538C4EE7A18BFCD7B02A04AD6FA79 /* SliceControlDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SliceControlDelegate.swift; sourceTree = "<group>"; };
+		7DF4926C3E1FC12FDE4D4C3B2F6B10D8 /* libSliceControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSliceControl.a; path = libSliceControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F5D6764D6F0D4D838D6FEA2573494B /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		88A7732E61D8158B122834997568C124 /* FlukyProtocol+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FlukyProtocol+Animate.swift"; sourceTree = "<group>"; };
-		8AE26561A0A037919FD70584F3ED1670 /* Spacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
-		8C76EEAC1F286BCF06BCA893938DFAD9 /* Fluky.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fluky.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5F20C9037A5F1A7004BCB5EE6D1F274 /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
-		AA1F3BCE5BAAE20A4B867D0C16914FB9 /* Fluky.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Fluky.swift; sourceTree = "<group>"; };
-		AD80CD9373B8BE3882259CA676E6E488 /* FlukyImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukyImageView.swift; sourceTree = "<group>"; };
-		AFDBABAEE469CD52889832ACDA6A9BE9 /* FlukyImageView+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "FlukyImageView+Create.swift"; sourceTree = "<group>"; };
-		B0C57BA59006594EC51586BBC7475464 /* FlukyLinearView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukyLinearView.swift; sourceTree = "<group>"; };
+		94184CAF5F363ABE62C75E46FEA298F7 /* SliceControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SliceControl.xcconfig; sourceTree = "<group>"; };
+		9C2F8C3FEE725185CC04926E0E83B208 /* SliceControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SliceControl-umbrella.h"; sourceTree = "<group>"; };
+		9EAE4C3F7F522E179FDFCE4E3C7E299D /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A9E3070BD33B554C5D562C54094422 /* SliceControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SliceControl.swift; sourceTree = "<group>"; };
 		B33ABD984166D937704E99B29A3C5598 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B344CDEB1378ABEF116D60F71A6BF791 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B8297D52B29A6075BE1936E1D97CE125 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		C6D28C1CCB5A7236EFD9191D60192D77 /* Fluky-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fluky-dummy.m"; sourceTree = "<group>"; };
-		C8EC8D3623FD1A7FB9B69EF208D90ECD /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
-		D25711AFC6E42778C9A48EA4343ECEEC /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		C56F7C51C5BB7BD382E7B17B35CDB37C /* SliceControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SliceControl-dummy.m"; sourceTree = "<group>"; };
+		C9DF829943F25BB3D62ACEB906E00BAC /* SliceControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SliceControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D42D159A47DC837C70E4D53AB3E9015F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		D50F6BE52382B60AED3D1941F51D6D56 /* Fluky.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fluky.h; path = Fluky/Fluky/Fluky.h; sourceTree = "<group>"; };
-		DA1BC7D43B47EE401D5A32E77D34CC90 /* FlukyProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukyProtocol.swift; sourceTree = "<group>"; };
-		E9BB55AE6811A79C7CCCC727F8824557 /* FlukySingleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlukySingleView.swift; sourceTree = "<group>"; };
+		EBDC21C6D24402EA4C993EF357C0ED11 /* SliceControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SliceControl.modulemap; sourceTree = "<group>"; };
+		F8EBF7FD54CBB399B7140E644FCC9B25 /* UILabel+Init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Init.swift"; sourceTree = "<group>"; };
 		F8F633DEA56389DC4ED732ABBD8D8B20 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4476DEEB6F09A35EB6D2D73F628B4C90 /* Frameworks */ = {
+		83876CECEDD19FCB19218EE9F1FFE2DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		969490391610A3F4E46F225087A1E5D2 /* Frameworks */ = {
+		C16D6D6ED8B42D239595C3E508D0D818 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -110,16 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01A5AD84D75B0220D24BC106DD2D88D9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				34406554533887B21CB2E81C64591C6C /* Fluky.podspec */,
-				B344CDEB1378ABEF116D60F71A6BF791 /* LICENSE */,
-				46A7E7C9112E1617130644A6FF52C693 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		037AE159A43E5E631B2F86CE2D6B9366 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,56 +92,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1C3C6146DF61C0B4EEF952630E8A2B04 /* Factory */ = {
+		2275B8B4E2475FC48ADB7E5A565A9F33 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AA1F3BCE5BAAE20A4B867D0C16914FB9 /* Fluky.swift */,
+				35FB75D408213093E048430BFDCDCCCF /* NSObject+Create.swift */,
+				F8EBF7FD54CBB399B7140E644FCC9B25 /* UILabel+Init.swift */,
 			);
-			name = Factory;
-			path = Fluky/Fluky/Factory;
+			name = Extensions;
+			path = SliceControl/Extensions;
 			sourceTree = "<group>";
 		};
-		1E64C73D0178674BE1A54E719994909F /* Fluky */ = {
+		3000F5183CC9A797571D0109DD25222A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D50F6BE52382B60AED3D1941F51D6D56 /* Fluky.h */,
-				C652D71669E9CC9AA94940BEB46F09D6 /* Enumerations */,
-				991E1BB9C89D030D32C503E0B88A047F /* Extensions */,
-				1C3C6146DF61C0B4EEF952630E8A2B04 /* Factory */,
-				B24B104D9A2A2D7AB3EF773B37895B54 /* Helpers */,
-				01A5AD84D75B0220D24BC106DD2D88D9 /* Pod */,
-				9F618A09F815967384BD86AC2A0780F2 /* Protocols */,
-				F7C1608C783ECA8227344AD184A7580B /* Style */,
-				97E814402219F58F6E65F87A9AA007E4 /* Support Files */,
-				215DF5001B81D81EB8EA5FBD526C0E71 /* Typealias */,
-				782AA9815BA32C76F4AA3A52EBF4294E /* Views */,
+				EBDC21C6D24402EA4C993EF357C0ED11 /* SliceControl.modulemap */,
+				94184CAF5F363ABE62C75E46FEA298F7 /* SliceControl.xcconfig */,
+				C56F7C51C5BB7BD382E7B17B35CDB37C /* SliceControl-dummy.m */,
+				1C3C273FF37D3E2D25421C071B4742A3 /* SliceControl-prefix.pch */,
+				9C2F8C3FEE725185CC04926E0E83B208 /* SliceControl-umbrella.h */,
 			);
-			name = Fluky;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SliceControl";
 			sourceTree = "<group>";
 		};
-		215DF5001B81D81EB8EA5FBD526C0E71 /* Typealias */ = {
+		6B96ACCE6DE1A6130A8665B41A535A09 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				581306AFE89239BB7383680D2442E55A /* FlukyView.swift */,
-			);
-			name = Typealias;
-			path = Fluky/Fluky/Typealias;
-			sourceTree = "<group>";
-		};
-		22ADDEF15FD0FF32C917FE609FE447A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1A16F27F1644EC00EFC28978691FD43B /* libFluky.a */,
-				79DED4CC844EF01462EF409EF357B7AC /* libPods-Example.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6B69FECA52872BB26923C9ADE2DED9A5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1E64C73D0178674BE1A54E719994909F /* Fluky */,
+				95CEA7ABAB8EA85C7830F85FFF7FFAEE /* SliceControl */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -204,156 +131,114 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		782AA9815BA32C76F4AA3A52EBF4294E /* Views */ = {
+		7BDAC8386857CFD4332D8146B96475D2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				7FEB6C5876F6A919F11624C26AF7BA42 /* FlukyBoxView.swift */,
-				AD80CD9373B8BE3882259CA676E6E488 /* FlukyImageView.swift */,
-				B0C57BA59006594EC51586BBC7475464 /* FlukyLinearView.swift */,
-				E9BB55AE6811A79C7CCCC727F8824557 /* FlukySingleView.swift */,
+				A6A9E3070BD33B554C5D562C54094422 /* SliceControl.swift */,
+				763538C4EE7A18BFCD7B02A04AD6FA79 /* SliceControlDelegate.swift */,
 			);
-			name = Views;
-			path = Fluky/Fluky/Views;
+			name = Core;
+			path = SliceControl/Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6B69FECA52872BB26923C9ADE2DED9A5 /* Development Pods */,
+				6B96ACCE6DE1A6130A8665B41A535A09 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				22ADDEF15FD0FF32C917FE609FE447A5 /* Products */,
+				BFD90E33755A04C8366E8FFB16DFE332 /* Products */,
 				6C49482DA5D4F97709CE2787E2211CE4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		97E814402219F58F6E65F87A9AA007E4 /* Support Files */ = {
+		8CBBFBA19D2AD3CFF4E78603707D90C7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8C76EEAC1F286BCF06BCA893938DFAD9 /* Fluky.modulemap */,
-				2E8EC39680E13B51BA98DEFE401A39A3 /* Fluky.xcconfig */,
-				C6D28C1CCB5A7236EFD9191D60192D77 /* Fluky-dummy.m */,
-				1B5B3C6E8CBFE54D91C75405759A8134 /* Fluky-prefix.pch */,
-				04248E40C3A6FB80BA6C8E0E7366E82B /* Fluky-umbrella.h */,
+				5E5826BA935C090BD69299C2CE915BC1 /* LICENSE */,
+				4C84C39627A64A79D03C2A67B627F19C /* README.md */,
+				C9DF829943F25BB3D62ACEB906E00BAC /* SliceControl.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Fluky";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		991E1BB9C89D030D32C503E0B88A047F /* Extensions */ = {
+		95CEA7ABAB8EA85C7830F85FFF7FFAEE /* SliceControl */ = {
 			isa = PBXGroup;
 			children = (
-				D25711AFC6E42778C9A48EA4343ECEEC /* Anchor.swift */,
-				805EECE816412B70461A491D61F917FD /* Array+Chunk.swift */,
-				AFDBABAEE469CD52889832ACDA6A9BE9 /* FlukyImageView+Create.swift */,
-				88A7732E61D8158B122834997568C124 /* FlukyProtocol+Animate.swift */,
-				23E70AB4483499F02163200406D07720 /* FlukyProtocol+Default.swift */,
-				095ED3CE863DB0371C9D0E2AA396742C /* NSObject+Create.swift */,
-				2B6921B8B9DCCF21C4EF5E22ED3E68D8 /* Sequence+Transform.swift */,
-				398E7FE57116E5D56CD9DAE255E38396 /* UIStackView+Add.swift */,
-				09F4A067CEEFAA020E332371DE4E681F /* UIStackView+Create.swift */,
-				5B9F487EF66FE64DA53FDFE1CBD699DB /* UIView+Add.swift */,
+				7BDAC8386857CFD4332D8146B96475D2 /* Core */,
+				2275B8B4E2475FC48ADB7E5A565A9F33 /* Extensions */,
+				8CBBFBA19D2AD3CFF4E78603707D90C7 /* Pod */,
+				3000F5183CC9A797571D0109DD25222A /* Support Files */,
 			);
-			name = Extensions;
-			path = Fluky/Fluky/Extensions;
+			name = SliceControl;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		9F618A09F815967384BD86AC2A0780F2 /* Protocols */ = {
+		BFD90E33755A04C8366E8FFB16DFE332 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA1BC7D43B47EE401D5A32E77D34CC90 /* FlukyProtocol.swift */,
+				9EAE4C3F7F522E179FDFCE4E3C7E299D /* libPods-Example.a */,
+				7DF4926C3E1FC12FDE4D4C3B2F6B10D8 /* libSliceControl.a */,
 			);
-			name = Protocols;
-			path = Fluky/Fluky/Protocols;
-			sourceTree = "<group>";
-		};
-		B24B104D9A2A2D7AB3EF773B37895B54 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				3447B8C2931AC8E3E5AADCEDD3DCB195 /* Calculator.swift */,
-			);
-			name = Helpers;
-			path = Fluky/Fluky/Helpers;
-			sourceTree = "<group>";
-		};
-		C652D71669E9CC9AA94940BEB46F09D6 /* Enumerations */ = {
-			isa = PBXGroup;
-			children = (
-				277A5CF7AB011821344A4ADF316B886E /* FlukyType.swift */,
-			);
-			name = Enumerations;
-			path = Fluky/Fluky/Enumerations;
-			sourceTree = "<group>";
-		};
-		F7C1608C783ECA8227344AD184A7580B /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				4B3E576F3760A5D7FACB2815DAB3D0FC /* Damping.swift */,
-				A5F20C9037A5F1A7004BCB5EE6D1F274 /* Duration.swift */,
-				8AE26561A0A037919FD70584F3ED1670 /* Spacing.swift */,
-				C8EC8D3623FD1A7FB9B69EF208D90ECD /* Spring.swift */,
-			);
-			name = Style;
-			path = Fluky/Fluky/Style;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		76BA2378AD26E60EC61694D60F8F37C4 /* Headers */ = {
+		0BFC58ED5E2A752BFA5E02D636E9038F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2240B69739515B877572B27E3BFFFDD /* Pods-Example-umbrella.h in Headers */,
+				91C64F7FB2106F43BA1BD62E1BC81392 /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1B83433401E4753D4DE6C12020DA87F /* Headers */ = {
+		EF66728E88562DC7F45FDBA397DA15CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4EEBFBEFAA02E9D4261744E4663A1A /* Fluky-umbrella.h in Headers */,
-				7DDF7AFE221DAA04F18876A8AC4E2AE2 /* Fluky.h in Headers */,
+				40DC687349E7BB6C7E923F83C15B844B /* SliceControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C9645D226202DB875F4E129B513B23DD /* Fluky */ = {
+		481AB4A8EACFE9F04332000886CFA3E6 /* SliceControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291E36940D9C0B6912A009D9D30880CC /* Build configuration list for PBXNativeTarget "Fluky" */;
+			buildConfigurationList = CACE829F49C32025E7C6600CD5EA6AE8 /* Build configuration list for PBXNativeTarget "SliceControl" */;
 			buildPhases = (
-				E1B83433401E4753D4DE6C12020DA87F /* Headers */,
-				25A7D2EFAF3890BCB9CC8C7FCABBA9FB /* Sources */,
-				4476DEEB6F09A35EB6D2D73F628B4C90 /* Frameworks */,
-				EBF116A7C3EEA1403ABE3F5BB3501520 /* Copy generated compatibility header */,
+				EF66728E88562DC7F45FDBA397DA15CC /* Headers */,
+				7582207C38A30667B9F8DE63D349CD7D /* Sources */,
+				C16D6D6ED8B42D239595C3E508D0D818 /* Frameworks */,
+				F23477105388FFD78BA99E42F2438691 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Fluky;
-			productName = Fluky;
-			productReference = 1A16F27F1644EC00EFC28978691FD43B /* libFluky.a */;
+			name = SliceControl;
+			productName = SliceControl;
+			productReference = 7DF4926C3E1FC12FDE4D4C3B2F6B10D8 /* libSliceControl.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		F03C85E8D36FFFB1BD52F983BB34DF75 /* Pods-Example */ = {
+		91114590897166971DCDE67EBC8E297F /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76611F1FA1FC35E6D20DDEF6843C01E3 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = 2E8832716ADA4270FFE10CDCD8D7F91A /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				76BA2378AD26E60EC61694D60F8F37C4 /* Headers */,
-				E3CA0295D4CE51B3332B91CA565B29B7 /* Sources */,
-				969490391610A3F4E46F225087A1E5D2 /* Frameworks */,
+				0BFC58ED5E2A752BFA5E02D636E9038F /* Headers */,
+				DEA6CA5B4BBC61C09CC9FC92345468C5 /* Sources */,
+				83876CECEDD19FCB19218EE9F1FFE2DC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6DED7EBC32203B1B5F332668E72FF2A /* PBXTargetDependency */,
+				FDFD5288E820CCA71967972DEC4BBBB2 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
-			productReference = 79DED4CC844EF01462EF409EF357B7AC /* libPods-Example.a */;
+			productReference = 9EAE4C3F7F522E179FDFCE4E3C7E299D /* libPods-Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -373,18 +258,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 22ADDEF15FD0FF32C917FE609FE447A5 /* Products */;
+			productRefGroup = BFD90E33755A04C8366E8FFB16DFE332 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9645D226202DB875F4E129B513B23DD /* Fluky */,
-				F03C85E8D36FFFB1BD52F983BB34DF75 /* Pods-Example */,
+				91114590897166971DCDE67EBC8E297F /* Pods-Example */,
+				481AB4A8EACFE9F04332000886CFA3E6 /* SliceControl */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EBF116A7C3EEA1403ABE3F5BB3501520 /* Copy generated compatibility header */ = {
+		F23477105388FFD78BA99E42F2438691 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,77 +278,197 @@
 			);
 			inputPaths = (
 				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
-				"${PODS_ROOT}/Headers/Public/Fluky/Fluky.modulemap",
-				"${PODS_ROOT}/Headers/Public/Fluky/Fluky-umbrella.h",
+				"${PODS_ROOT}/Headers/Public/SliceControl/SliceControl.modulemap",
+				"${PODS_ROOT}/Headers/Public/SliceControl/SliceControl-umbrella.h",
 			);
 			name = "Copy generated compatibility header";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
-				"${BUILT_PRODUCTS_DIR}/Fluky-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/SliceControl-umbrella.h",
 				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Fluky/Fluky.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Fluky/Fluky-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SliceControl/SliceControl.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SliceControl/SliceControl-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25A7D2EFAF3890BCB9CC8C7FCABBA9FB /* Sources */ = {
+		7582207C38A30667B9F8DE63D349CD7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C1A3B75D4267AAB9D6FE56E6216020 /* Anchor.swift in Sources */,
-				C0840D60BEDE6EAE191FE326AEC935FD /* Array+Chunk.swift in Sources */,
-				B8609C5852A3A04D67BA8171C4EB1529 /* Calculator.swift in Sources */,
-				67A6050FB8F875213EEDB5955CC7ED1A /* Damping.swift in Sources */,
-				9146DD686515CA6AF576FA4EFF22BCED /* Duration.swift in Sources */,
-				5C86EBE2D41CB54CE9D293E64F59D670 /* Fluky-dummy.m in Sources */,
-				5D30880AE368F5584C6ADE7B5EB1433A /* Fluky.swift in Sources */,
-				B1B0411698768FF46BA17DBDF4EA6ED9 /* FlukyBoxView.swift in Sources */,
-				BC3D3D53AE67FF4716E2C4BF1B9A0675 /* FlukyImageView+Create.swift in Sources */,
-				F88E6A6BAA6304A286DC5B8B1E2D0266 /* FlukyImageView.swift in Sources */,
-				AB431E83D89B158415E211BB4EA30BE1 /* FlukyLinearView.swift in Sources */,
-				B529C2E6128F58E8D6144486B4B68AAC /* FlukyProtocol+Animate.swift in Sources */,
-				941C98AC663405C5605646C3C2AD9202 /* FlukyProtocol+Default.swift in Sources */,
-				252422110DA79515653CE698EA033453 /* FlukyProtocol.swift in Sources */,
-				D2416BDAE2828E67DEC6AFD6235D3114 /* FlukySingleView.swift in Sources */,
-				721F18F5DED2CE5BFACCE258BAD28596 /* FlukyType.swift in Sources */,
-				245AE20EB290C60E4C665C8558B02E24 /* FlukyView.swift in Sources */,
-				DEFC4686AFC355E78F8A2C347ADB2E2A /* NSObject+Create.swift in Sources */,
-				9860B67D2F3382336CDBF39EFACE1F0D /* Sequence+Transform.swift in Sources */,
-				B2A2231C75508A88D2D8777E7F7A263F /* Spacing.swift in Sources */,
-				9FCF9E8F25DB71F88D648FF1D8DDD023 /* Spring.swift in Sources */,
-				8E3320308DE1BFCF7E8520F23CF01514 /* UIStackView+Add.swift in Sources */,
-				B401EC5A8D5A4D13A2C5922758A6AF0B /* UIStackView+Create.swift in Sources */,
-				6BB8D282279143E2A9A635FCE4DA17C9 /* UIView+Add.swift in Sources */,
+				674535380022B02CDDDA83F9C13D5499 /* NSObject+Create.swift in Sources */,
+				0535D6CD45836B0573F088483B09F4B0 /* SliceControl-dummy.m in Sources */,
+				FAB2287A3D5FEC56E4ECB59942BA04BD /* SliceControl.swift in Sources */,
+				B5980C209E0927FEA06A218016AD065E /* SliceControlDelegate.swift in Sources */,
+				06D1F76D5AAE74123353C49105064601 /* UILabel+Init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3CA0295D4CE51B3332B91CA565B29B7 /* Sources */ = {
+		DEA6CA5B4BBC61C09CC9FC92345468C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D8E883A1B9B093AD520D97B78D999C3 /* Pods-Example-dummy.m in Sources */,
+				8CF8BF0A917959F5616AB773B031576B /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6DED7EBC32203B1B5F332668E72FF2A /* PBXTargetDependency */ = {
+		FDFD5288E820CCA71967972DEC4BBBB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Fluky;
-			target = C9645D226202DB875F4E129B513B23DD /* Fluky */;
-			targetProxy = E73C931E69747ACB250398212B33F6FF /* PBXContainerItemProxy */;
+			name = SliceControl;
+			target = 481AB4A8EACFE9F04332000886CFA3E6 /* SliceControl */;
+			targetProxy = CCF0F80ED0C96C6C7DF827AC7785C32D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4AD36337B694D9C71101134B1146F602 /* Release */ = {
+		078166A54B12EAE9DDB5461EAE0E5AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94184CAF5F363ABE62C75E46FEA298F7 /* SliceControl.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SliceControl/SliceControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SliceControl/SliceControl.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SliceControl;
+				PRODUCT_NAME = SliceControl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21605A0C1360EF2C20E666CDF612E5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04239285FD8E362D816F1B1D09001D65 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303CDAFF367842ABCFF348608EC4728B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94184CAF5F363ABE62C75E46FEA298F7 /* SliceControl.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SliceControl/SliceControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/SliceControl/SliceControl.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SliceControl;
+				PRODUCT_NAME = SliceControl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1CEABD023D2303D63D3071F1D0C2BC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3934CC4ED3E5E56B4560DA4444C63F20 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
@@ -483,43 +488,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5660F8B818E5FCF62819FA3A19204966 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E8EC39680E13B51BA98DEFE401A39A3 /* Fluky.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Fluky/Fluky-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/Fluky/Fluky.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Fluky;
-				PRODUCT_NAME = Fluky;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
+		E19471FE7E209D0818DAFB22D649A6E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -579,148 +553,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B16112C2E553A0CAA1F07C765415BFB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04239285FD8E362D816F1B1D09001D65 /* Pods-Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E2165B3DF704A36E96294341C1490B5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E8EC39680E13B51BA98DEFE401A39A3 /* Fluky.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Fluky/Fluky-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/Fluky/Fluky.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Fluky;
-				PRODUCT_NAME = Fluky;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		291E36940D9C0B6912A009D9D30880CC /* Build configuration list for PBXNativeTarget "Fluky" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2165B3DF704A36E96294341C1490B5D /* Debug */,
-				5660F8B818E5FCF62819FA3A19204966 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
-				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
+				E19471FE7E209D0818DAFB22D649A6E9 /* Debug */,
+				8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76611F1FA1FC35E6D20DDEF6843C01E3 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		2E8832716ADA4270FFE10CDCD8D7F91A /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B16112C2E553A0CAA1F07C765415BFB7 /* Debug */,
-				4AD36337B694D9C71101134B1146F602 /* Release */,
+				21605A0C1360EF2C20E666CDF612E5BE /* Debug */,
+				D1CEABD023D2303D63D3071F1D0C2BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACE829F49C32025E7C6600CD5EA6AE8 /* Build configuration list for PBXNativeTarget "SliceControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078166A54B12EAE9DDB5461EAE0E5AB8 /* Debug */,
+				303CDAFF367842ABCFF348608EC4728B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

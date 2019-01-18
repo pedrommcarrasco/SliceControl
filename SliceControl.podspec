@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.name         = "SliceControl"
   s.version      = "1.0.0"
-  s.summary      = ""
+  s.summary      = "Summary"
 
-  s.description  = ""
+  s.description  = "Description"
 
   s.homepage     = "https://github.com/pedrommcarrasco/Fluky"
   s.license = { :type => 'MIT', :file => 'LICENSE' }

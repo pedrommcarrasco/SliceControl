@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "Fluky.h"
 
-FOUNDATION_EXPORT double FlukyVersionNumber;
-FOUNDATION_EXPORT const unsigned char FlukyVersionString[];
+FOUNDATION_EXPORT double SliceControlVersionNumber;
+FOUNDATION_EXPORT const unsigned char SliceControlVersionString[];
 

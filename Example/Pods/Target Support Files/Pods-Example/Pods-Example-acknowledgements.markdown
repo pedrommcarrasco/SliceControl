@@ -1,11 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Fluky
+## SliceControl
 
 MIT License
 
-Copyright (c) 2018 Pedro Carrasco
+Copyright (c) 2019 Pedro Carrasco
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
