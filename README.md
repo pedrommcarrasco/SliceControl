@@ -6,8 +6,6 @@
 >
 > "A slice is any small part that has been separated from something larger"
 
-🍰 Simply a better & animated `UISegmentedControl`
-
 [![CocoaPods](https://img.shields.io/cocoapods/v/SliceControl.svg)](https://cocoapods.org/pods/SliceControl)
 [![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Fluky/blob/master/LICENSE)
 
@@ -45,3 +43,15 @@ And run the following command in terminal:
 ```swift
 pod install
 ```
+
+# Sample Project  📲
+
+There's a sample project in this repository called [Example](https://github.com/pedrommcarrasco/SliceControl/tree/master/Example) with some examples.
+
+# Contributing  🙌 
+
+Feel free to contribute to this project by providing [ideas](https://github.com/pedrommcarrasco/SliceControl/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or opening [pull requests](https://github.com/pedrommcarrasco/SliceControl/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc).
+
+# License ⛔
+
+Fluky's available under the MIT license. See the [LICENSE](https://github.com/pedrommcarrasco/SliceControl/blob/master/LICENSE) file for more information.
