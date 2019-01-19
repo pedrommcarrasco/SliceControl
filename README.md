@@ -25,6 +25,9 @@ sliceControl = SliceControl(with: ["All", "Liked", "Favourited"],
                             secondaryColor: .white,
                             padding: 12)
 
+// Implement SliceControlDelegate to intercept actions
+sliceControl.delegate = self
+
 view.addSubview(sliceControl)
 // ... Constrain it
 ```
