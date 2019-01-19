@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - SliceControl
 public final class SliceControl: UIControl {
-
+    
     // MARK: Private Outlets
     private let optionLabels: [UILabel]
     private let selectedView = UIView()
@@ -20,17 +20,15 @@ public final class SliceControl: UIControl {
         $0.isLayoutMarginsRelativeArrangement = true
     }
     
-    // MARK: Properties
+    private var selectedLeadingConstraint: NSLayoutConstraint?
+    
+    // MARK: Public Properties
     public weak var delegate: SliceControlDelegate?
     
     // MARK: Private Properties
     private let primaryColor: UIColor
     private let secondaryColor: UIColor
     private let padding: CGFloat
-    private var selectedIndex: Int = 0
-
-    // MARK: Private Constraints
-    private var selectedLeadingConstraint: NSLayoutConstraint?
     
     // MARK: Lifecycle
     public init(with options: [String],
@@ -38,7 +36,7 @@ public final class SliceControl: UIControl {
                 secondaryColor: UIColor,
                 font: UIFont? = nil,
                 padding: CGFloat,
-                startAt index: Int) {
+                startAt index: Int = 0) {
         
         self.optionLabels = options.map { return UILabel(with: $0, textColor: secondaryColor, font: font) }
         self.primaryColor = primaryColor
@@ -47,18 +45,16 @@ public final class SliceControl: UIControl {
         
         super.init(frame: .zero)
         
-        configure()
-
-        selected(item: optionLabels[clamp(index, minValue: 0, maxValue: optionLabels.count)])
+        configure(with: index)
     }
-
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
     override public func layoutSubviews() {
         super.layoutSubviews()
-        selectedView.layer.cornerRadius = selectedView.bounds.height / 2
+        selectedView.withRoundedCorners()
     }
 }
 
@@ -67,101 +63,87 @@ extension SliceControl {
     
     override public func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         let location = touch.location(in: self)
-        
         guard let selectedLabel = optionLabels.first(where: { $0.frame.contains(location) }) else { return false }
         selected(item: selectedLabel)
         sendActions(for: .valueChanged)
         
         return false
     }
-    
-    func selected(item: UILabel) {
-        guard let index = optionLabels.index(of: item) else { return }
-        selectedIndex = index
-        animateSelection(for: item)
-        delegate?.sliceControl(self, didSelectItemAt: selectedIndex)
-    }
 }
 
 // MARK: - Configuration
 private extension SliceControl {
     
-    func configure() {
+    func configure(with startingIndex: Int) {
         addSubviews()
-        defineConstraints()
-        setupSubviews()
+        defineConstraints(with: startingIndex)
+        setupSubviews(with: startingIndex)
     }
     
     func addSubviews() {
-        optionLabels.forEach { self.stackView.addArrangedSubview($0) }
-        [selectedView, stackView].forEach {
-            self.addSubview($0)
-            $0.translatesAutoresizingMaskIntoConstraints = false
-        }
+        stackView.addArrangedSubviews(optionLabels)
+        addSubviews(selectedView, stackView)
     }
     
-    func defineConstraints() {
-        let selectedMultiplier = 1 / CGFloat(optionLabels.count)
+    func defineConstraints(with startingIndex: Int) {
+        stackView.topAnchor.constrain(to: topAnchor)
+        stackView.bottomAnchor.constrain(to: bottomAnchor)
+        stackView.leadingAnchor.constrain(to: leadingAnchor)
+        stackView.trailingAnchor.constrain(to: trailingAnchor)
 
-        NSLayoutConstraint.activate(
-            [
-                stackView.topAnchor.constraint(equalTo: topAnchor),
-                stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
-                stackView.leadingAnchor.constraint(equalTo: leadingAnchor),
-                stackView.trailingAnchor.constraint(equalTo: trailingAnchor),
-                
-                selectedView.topAnchor.constraint(equalTo: stackView.layoutMarginsGuide.topAnchor),
-                selectedView.bottomAnchor.constraint(equalTo: stackView.layoutMarginsGuide.bottomAnchor),
-                selectedView.widthAnchor.constraint(equalTo: stackView.layoutMarginsGuide.widthAnchor, multiplier: selectedMultiplier)
-            ]
-        )
-        
-        selectedLeadingConstraint = selectedView.leadingAnchor.constraint(equalTo: stackView.layoutMarginsGuide.leadingAnchor)
-        selectedLeadingConstraint?.isActive = true
+        selectedView.topAnchor.constrain(to: stackView.layoutMarginsGuide.topAnchor)
+        selectedView.bottomAnchor.constrain(to: stackView.layoutMarginsGuide.bottomAnchor)
+        selectedView.widthAnchor.constrain(to: stackView.layoutMarginsGuide.widthAnchor, multiplyBy: 1 / CGFloat(optionLabels.count))
+        selectedLeadingConstraint = selectedView.leadingAnchor.constrain(to: optionLabels.element(forClamped: startingIndex).leadingAnchor)
     }
     
-    func setupSubviews() {
+    func setupSubviews(with startingIndex: Int) {
         subviews.forEach { $0.isUserInteractionEnabled = false }
         backgroundColor = primaryColor
         selectedView.backgroundColor = secondaryColor
-        stackView.layoutMargins = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+        optionLabels.element(forClamped: startingIndex).textColor = primaryColor
+        stackView.layoutMargins = UIEdgeInsets(with: padding)
     }
 }
 
 // MARK: - Animation
 private extension SliceControl {
     
+    enum Animation {
+        static let duration = 0.33
+        static let delay: TimeInterval = 0.0
+        static let damping: CGFloat = 0.7
+        static let velocity: CGFloat = 0.7
+    }
+    
+    func selected(item: UILabel) {
+        guard let index = optionLabels.index(of: item) else { return }
+        animateSelection(for: item)
+        delegate?.sliceControl(self, didSelectItemAt: index)
+    }
+    
     func animateSelection(for item: UILabel) {
-        updateLeadingContraints(with: item)
+        updateLeadingContraint(with: item)
         let animation: () -> Void = { [weak self] in self?.layoutIfNeeded() }
-        UIView.animate(withDuration: 0.33,
-                       delay: 0,
-                       usingSpringWithDamping: 0.7,
-                       initialSpringVelocity: 0.7,
+        UIView.animate(withDuration: Animation.duration,
+                       delay: Animation.delay,
+                       usingSpringWithDamping: Animation.damping,
+                       initialSpringVelocity: Animation.velocity,
                        options: .curveEaseOut,
                        animations: animation,
                        completion: nil)
-
+        
         optionLabels.forEach { $0.textColor = secondaryColor }
-        let textAnimation: () -> Void = { [weak self] in item.textColor = self?.primaryColor }
+        let textAnimation = { [weak self] in item.textColor = self?.primaryColor }
         UIView.transition(with: item,
-                          duration: 0.33,
+                          duration: Animation.duration,
                           options: .transitionCrossDissolve,
                           animations: textAnimation,
                           completion: nil)
     }
-}
-
-// MARK: - Utils
-private extension SliceControl {
     
-    func updateLeadingContraints(with item: UILabel) {
+    func updateLeadingContraint(with item: UILabel) {
         selectedLeadingConstraint?.isActive = false
-        selectedLeadingConstraint = selectedView.leadingAnchor.constraint(equalTo: item.leadingAnchor)
-        selectedLeadingConstraint?.isActive = true
-    }
-
-    func clamp(_ value: Int, minValue: Int, maxValue: Int) -> Int {
-        return min(max(value, minValue), maxValue)
+        selectedLeadingConstraint = selectedView.leadingAnchor.constrain(to: item.leadingAnchor)
     }
 }

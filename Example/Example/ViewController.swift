@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         sliceControl = SliceControl(with: ["All", "Option A", "Option B"],
                                     primaryColor: .green,
                                     secondaryColor: .red,
-                                    padding: 12)
+                                    padding: 12,
+                                    startAt: 1)
 
         view.addSubview(sliceControl)
         sliceControl.translatesAutoresizingMaskIntoConstraints = false

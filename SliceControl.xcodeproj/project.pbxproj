@@ -11,6 +11,12 @@
 		202E803C21F1104B0086D4A3 /* SliceControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E803B21F1104B0086D4A3 /* SliceControlDelegate.swift */; };
 		202E804021F110E50086D4A3 /* NSObject+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E803F21F110E50086D4A3 /* NSObject+Create.swift */; };
 		202E804221F114EC0086D4A3 /* UILabel+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202E804121F114EC0086D4A3 /* UILabel+Init.swift */; };
+		20F9C3C821F2942400889F7C /* UIView+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9C3C721F2942400889F7C /* UIView+Rounded.swift */; };
+		20F9C3CA21F2948600889F7C /* Collection+Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9C3C921F2948600889F7C /* Collection+Clamp.swift */; };
+		20F9C3CC21F2999F00889F7C /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9C3CB21F2999F00889F7C /* UIView+Add.swift */; };
+		20F9C3CE21F29A1D00889F7C /* UIStackView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9C3CD21F29A1D00889F7C /* UIStackView+Add.swift */; };
+		20F9C3D021F29B4B00889F7C /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9C3CF21F29B4B00889F7C /* Anchor.swift */; };
+		20F9C3D221F29C1800889F7C /* UIEdgeInsets+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9C3D121F29C1800889F7C /* UIEdgeInsets+Init.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		202E803B21F1104B0086D4A3 /* SliceControlDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceControlDelegate.swift; sourceTree = "<group>"; };
 		202E803F21F110E50086D4A3 /* NSObject+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Create.swift"; sourceTree = "<group>"; };
 		202E804121F114EC0086D4A3 /* UILabel+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Init.swift"; sourceTree = "<group>"; };
+		20F9C3C721F2942400889F7C /* UIView+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Rounded.swift"; sourceTree = "<group>"; };
+		20F9C3C921F2948600889F7C /* Collection+Clamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Clamp.swift"; sourceTree = "<group>"; };
+		20F9C3CB21F2999F00889F7C /* UIView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Add.swift"; sourceTree = "<group>"; };
+		20F9C3CD21F29A1D00889F7C /* UIStackView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Add.swift"; sourceTree = "<group>"; };
+		20F9C3CF21F29B4B00889F7C /* Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		20F9C3D121F29C1800889F7C /* UIEdgeInsets+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +83,14 @@
 		202E803E21F110D30086D4A3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				20F9C3CF21F29B4B00889F7C /* Anchor.swift */,
 				202E803F21F110E50086D4A3 /* NSObject+Create.swift */,
 				202E804121F114EC0086D4A3 /* UILabel+Init.swift */,
+				20F9C3C721F2942400889F7C /* UIView+Rounded.swift */,
+				20F9C3C921F2948600889F7C /* Collection+Clamp.swift */,
+				20F9C3CB21F2999F00889F7C /* UIView+Add.swift */,
+				20F9C3CD21F29A1D00889F7C /* UIStackView+Add.swift */,
+				20F9C3D121F29C1800889F7C /* UIEdgeInsets+Init.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -156,9 +174,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				202E803A21F1102A0086D4A3 /* SliceControl.swift in Sources */,
+				20F9C3C821F2942400889F7C /* UIView+Rounded.swift in Sources */,
+				20F9C3D221F29C1800889F7C /* UIEdgeInsets+Init.swift in Sources */,
 				202E803C21F1104B0086D4A3 /* SliceControlDelegate.swift in Sources */,
+				20F9C3CE21F29A1D00889F7C /* UIStackView+Add.swift in Sources */,
+				20F9C3CC21F2999F00889F7C /* UIView+Add.swift in Sources */,
 				202E804221F114EC0086D4A3 /* UILabel+Init.swift in Sources */,
 				202E804021F110E50086D4A3 /* NSObject+Create.swift in Sources */,
+				20F9C3D021F29B4B00889F7C /* Anchor.swift in Sources */,
+				20F9C3CA21F2948600889F7C /* Collection+Clamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
