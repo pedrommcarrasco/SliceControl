@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="logo.gif?raw=true width="500" alt="SliceControl"/>
+    <img src="logo.gif?raw=true alt="SliceControl"/>
 </p>
-
+                      
 > **Slice** *(/slɑɪs/)*, *noun*
 >
 > "A slice is any small part that has been separated from something larger"
