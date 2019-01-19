@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.gif?raw=true alt="SliceControl"/>
+    <img src="logo.gif?raw=true alt="SliceControl" width="100%"/>
 </p>
                       
 > **Slice** *(/slɑɪs/)*, *noun*
