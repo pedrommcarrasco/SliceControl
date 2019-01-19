@@ -1,4 +1,6 @@
-<img align="right"  src="logo.gif?raw=true width="250" alt="SliceControl"/>
+<p align="center">
+    <img src="logo.gif?raw=true width="500" alt="SliceControl"/>
+</p>
 
 > **Slice** *(/slɑɪs/)*, *noun*
 >
