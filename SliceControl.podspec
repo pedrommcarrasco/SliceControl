@@ -2,9 +2,8 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.name         = "SliceControl"
   s.version      = "1.0.0"
-  s.summary      = "Simply a better & animated `UISegmentedControl`"
-
-  s.description  = "Simply a better & animated `UISegmentedControl`"
+  s.summary      = "🍰 Simply a better & animated UISegmentedControl"
+  s.description  = "🍰 Simply a better & animated UISegmentedControl"
 
   s.homepage     = "https://github.com/pedrommcarrasco/SliceControl"
   s.license = { :type => 'MIT', :file => 'LICENSE' }

@@ -46,7 +46,7 @@ pod install
 
 # Sample Project  📲
 
-There's a sample project in this repository called [Example](https://github.com/pedrommcarrasco/SliceControl/tree/master/Example) with some examples.
+There's a sample project in this repository called [Example](https://github.com/pedrommcarrasco/SliceControl/tree/master/Example).
 
 # Contributing  🙌 
 
