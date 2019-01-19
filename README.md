@@ -1,4 +1,6 @@
-![](https://github.com/pedrommcarrasco/SliceControl/blob/master/logo.gif?raw=true)
+<p align="center">
+    <img src="logo.gif?raw=true width="500" alt="SliceControl"/>
+</p>
 
 > **Slice** *(/slɑɪs/)*, *noun*
 >
