@@ -29,6 +29,7 @@ public final class SliceControl: UIControl {
     private let primaryColor: UIColor
     private let secondaryColor: UIColor
     private let padding: CGFloat
+    private let startIndex: Int
     
     // MARK: Lifecycle
     public init(with options: [String],
@@ -42,6 +43,7 @@ public final class SliceControl: UIControl {
         self.primaryColor = primaryColor
         self.secondaryColor = secondaryColor
         self.padding = padding
+        self.startIndex = index
         
         super.init(frame: .zero)
         
@@ -55,6 +57,14 @@ public final class SliceControl: UIControl {
     override public func layoutSubviews() {
         super.layoutSubviews()
         selectedView.withRoundedCorners()
+    }
+}
+
+// MARK: - Reset
+extension SliceControl {
+
+    public func reset() {
+        selected(item: optionLabels[startIndex])
     }
 }
 
