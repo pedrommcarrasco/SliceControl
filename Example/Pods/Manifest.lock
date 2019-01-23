@@ -1,5 +1,5 @@
 PODS:
-  - SliceControl (1.1.0)
+  - SliceControl (1.1.1)
 
 DEPENDENCIES:
   - SliceControl (from `..`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  SliceControl: 0b7feb9b9a156b4edd1eadce43961e4a7295e5d2
+  SliceControl: 411880da9100898500da0b5321132c6c4f23dd55
 
 PODFILE CHECKSUM: 472c6bdd43948203743cec6a19ad73dd429ea8e0
 

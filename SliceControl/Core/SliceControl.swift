@@ -64,7 +64,7 @@ public final class SliceControl: UIControl {
 extension SliceControl {
 
     public func reset() {
-        selected(item: optionLabels[startIndex])
+        animateSelection(for: optionLabels[startIndex])
     }
 }
 

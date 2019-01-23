@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.name         = "SliceControl"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "🍰 Simply a better & animated UISegmentedControl"
   s.description  = "🍰 Simply a better & animated UISegmentedControl"
 
