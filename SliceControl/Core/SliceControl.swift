@@ -23,6 +23,7 @@ public final class SliceControl: UIControl {
     private var selectedLeadingConstraint: NSLayoutConstraint?
     
     // MARK: Public Properties
+    public private(set) var selectedIndex: Int
     public weak var delegate: SliceControlDelegate?
     
     // MARK: Private Properties
@@ -44,6 +45,7 @@ public final class SliceControl: UIControl {
         self.secondaryColor = secondaryColor
         self.padding = padding
         self.startIndex = index
+        self.selectedIndex = index
         
         super.init(frame: .zero)
         
@@ -64,7 +66,7 @@ public final class SliceControl: UIControl {
 extension SliceControl {
 
     public func reset() {
-        animateSelection(for: optionLabels[startIndex])
+        selected(item: optionLabels[startIndex], isReset: true)
     }
 }
 
@@ -126,10 +128,14 @@ private extension SliceControl {
         static let velocity: CGFloat = 0.7
     }
     
-    func selected(item: UILabel) {
+    func selected(item: UILabel, isReset: Bool = false) {
         guard let index = optionLabels.index(of: item) else { return }
+        selectedIndex = index
         animateSelection(for: item)
-        delegate?.sliceControl(self, didSelectItemAt: index)
+        
+        if !isReset {
+            delegate?.sliceControl(self, didSelectItemAt: index)
+        }
     }
     
     func animateSelection(for item: UILabel) {
