@@ -23,7 +23,12 @@ public final class SliceControl: UIControl {
     private var selectedLeadingConstraint: NSLayoutConstraint?
     
     // MARK: Public Properties
-    public private(set) var selectedIndex: Int
+    public var selectedIndex: Int {
+        didSet {
+            guard optionLabels.indices.contains(selectedIndex) else { return }
+            animateSelection(for: optionLabels[selectedIndex])
+        }
+    }
     public weak var delegate: SliceControlDelegate?
     
     // MARK: Private Properties
@@ -59,14 +64,6 @@ public final class SliceControl: UIControl {
     override public func layoutSubviews() {
         super.layoutSubviews()
         selectedView.withRoundedCorners()
-    }
-}
-
-// MARK: - Reset
-extension SliceControl {
-
-    public func reset() {
-        selected(item: optionLabels[startIndex], isReset: true)
     }
 }
 
@@ -128,14 +125,10 @@ private extension SliceControl {
         static let velocity: CGFloat = 0.7
     }
     
-    func selected(item: UILabel, isReset: Bool = false) {
+    func selected(item: UILabel) {
         guard let index = optionLabels.index(of: item) else { return }
         selectedIndex = index
-        animateSelection(for: item)
-        
-        if !isReset {
-            delegate?.sliceControl(self, didSelectItemAt: index)
-        }
+        delegate?.sliceControl(self, didSelectItemAt: index)
     }
     
     func animateSelection(for item: UILabel) {
