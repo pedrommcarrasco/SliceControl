@@ -33,6 +33,8 @@ view.addSubview(sliceControl)
 ```
 You can also set its `UIFont` and starting option.
 
+## RxSwift
+Would you like to subscribe to SliceControl's events using RxSwift? **[RxSliceControl](https://github.com/pedrommcarrasco/RxSliceControl)** is here to save you!
 
 # Instalation 📦
 
