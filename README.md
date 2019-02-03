@@ -7,7 +7,7 @@
 > "A slice is any small part that has been separated from something larger"
 
 [![CocoaPods](https://img.shields.io/cocoapods/v/SliceControl.svg)](https://cocoapods.org/pods/SliceControl)
-[![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/Fluky/blob/master/LICENSE)
+[![apm](https://img.shields.io/apm/l/vim-mode.svg)](https://github.com/pedrommcarrasco/SliceControl/blob/master/LICENSE)
 
 # Usage Example ⌨️
 
@@ -57,4 +57,4 @@ Feel free to contribute to this project by providing [ideas](https://github.com/
 
 # License ⛔
 
-Fluky's available under the MIT license. See the [LICENSE](https://github.com/pedrommcarrasco/SliceControl/blob/master/LICENSE) file for more information.
+SliceControl's available under the MIT license. See the [LICENSE](https://github.com/pedrommcarrasco/SliceControl/blob/master/LICENSE) file for more information.
